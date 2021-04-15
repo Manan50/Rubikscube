@@ -67,8 +67,8 @@ public class ReadCube : MonoBehaviour
     {
         upRays = BuildRays(tUp, new Vector3(90, 90, 0));
         downRays = BuildRays(tDown, new Vector3(270, 90, 0));
-        leftRays = BuildRays(tLeft, new Vector3(0, 0, 0));
-        rightRays = BuildRays(tRight, new Vector3(0, 180, 0));
+        rightRays = BuildRays(tRight, new Vector3(0, 0, 0));
+        leftRays = BuildRays(tLeft, new Vector3(0, 180, 0));
         frontRays = BuildRays(tFront, new Vector3(0, 90, 0));
         backRays = BuildRays(tBack, new Vector3(0, 270, 0));
     }
